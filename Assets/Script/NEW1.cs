@@ -10,15 +10,15 @@ public class NEW1 : MonoBehaviour
     int count = 1;
     void Start()
     {
-            //연산자
-            Debug.Log(10 + 3);
-            Debug.Log(10 - 3);
-            Debug.Log(10 * 3);
-            Debug.Log(10 / 3);
-            Debug.Log(10 % 3);
-            Debug.Log("나는 " + age + "살");
+        //연산자
+        Debug.Log(10 + 3);
+        Debug.Log(10 - 3);
+        Debug.Log(10 * 3);
+        Debug.Log(10 / 3);
+        Debug.Log(10 % 3);
+        Debug.Log("나는 " + age + "살");
 
-        if (age>=20)
+        if (age >= 20)
         {
             Debug.Log("성인입니다.");
         }
@@ -35,10 +35,11 @@ public class NEW1 : MonoBehaviour
             Debug.Log("While 반복 중: " + count + "번 반복");
             count++;
         }
+
     }
 
-// Update is called once per frame
-void Update()
+    // Update is called once per frame
+    void Update()
     {
         
     }
