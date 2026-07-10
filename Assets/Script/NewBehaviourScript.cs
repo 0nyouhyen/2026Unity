@@ -5,7 +5,6 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] int age = 20;
     void Start()
     {
 
