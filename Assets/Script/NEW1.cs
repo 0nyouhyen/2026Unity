@@ -26,7 +26,7 @@ public class NEW1 : MonoBehaviour
         {
             Debug.Log("미성년자입니다. ");
         }
-        for (int i = 0; i < 10; i++) ;
+        for (int i = 0; i < 10; i++)
         {
             Debug.Log("Start 실행 후: " + i + "번 반복");
         }
