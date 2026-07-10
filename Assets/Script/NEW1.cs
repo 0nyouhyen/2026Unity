@@ -32,7 +32,8 @@ public class NEW1 : MonoBehaviour
         }
         while (count <= 7)
         {
-            Debug.Log("Whiel 반복 중: " + count + "번 반복");
+            Debug.Log("While 반복 중: " + count + "번 반복");
+            count++;
         }
     }
 
